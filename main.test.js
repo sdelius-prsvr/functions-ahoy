@@ -9,19 +9,19 @@ let meanName = 'Stinky Buttface'
 let callStatus = 'ringing'
 
 function double() {
-  x = x *2
+  x *= 2
 }
 
 function triple() {
-  y = y *3
+  y *= 3
 }
 
 function square() {
-  z = z * z
+  z **= 2
 }
 
 function beMean() {
-  greeting = greeting + ' ' + meanName
+  greeting += ' ' + meanName
   console.log(greeting)
 }
 
